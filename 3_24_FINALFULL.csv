@@ -1,0 +1,5 @@
+job_name,algorithm,loss,advantage,env_name,frames_per_batch,total_frames,test_interval,num_test_episodes,lrate,weight_decay,anneal_lr,gamma,mini_batch_size,loss_epochs,gae_lambda,clip_epsilon,anneal_clip_epsilon,critic_coef,entropy_coef,loss_critic_type
+IPp_FINALFULL,PPO_PENALTY,clip,GAE,InvertedPendulum-v4,2000,200000,200000,5,3.00E-04,0,TRUE,0.99,100,10,0.95,0.2,FALSE,0.25,0,l2
+IPc_FINALFULL,PPO_CLIP,clip,GAE,InvertedPendulum-v4,2000,200000,200000,5,3.00E-04,0,TRUE,0.99,100,10,0.95,0.2,FALSE,0.25,0,l2
+HCp_FINALFULL,PPO_PENALTY,clip,GAE,HalfCheetah-v4,2000,200000,200000,5,3.00E-04,0,TRUE,0.99,100,10,0.95,0.2,FALSE,0.25,0,l2
+HCc_FINALFULL,PPO_CLIP,clip,GAE,HalfCheetah-v4,2000,200000,200000,5,3.00E-04,0,TRUE,0.99,100,10,0.95,0.2,FALSE,0.25,0,l2
